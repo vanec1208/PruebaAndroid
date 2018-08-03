@@ -15,7 +15,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
             android:text="CÉDULA" />
@@ -23,7 +23,7 @@
         <EditText
             android:layout_height="50dp"
             android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_weight="1.2"
             android:ems="10"
             android:maxLength="20"
             android:inputType="number"
@@ -41,7 +41,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
             android:text="NOMBRE" />
@@ -49,7 +49,7 @@
         <EditText
             android:layout_height="50dp"
             android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_weight="1.2"
             android:ems="10"
             android:maxLength="50"
             android:inputType="text"
@@ -66,7 +66,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
             android:text="APELLIDO" />
@@ -74,7 +74,7 @@
         <EditText
             android:layout_height="50dp"
             android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_weight="1.2"
             android:ems="10"
             android:maxLength="50"
             android:inputType="text"
@@ -91,7 +91,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
             android:text="TÉLEFONO" />
@@ -99,7 +99,7 @@
         <EditText
             android:layout_height="50dp"
             android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_weight="1.2"
             android:ems="10"
             android:maxLength="20"
             android:inputType="number"
@@ -116,7 +116,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
+            android:layout_weight="0.8"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
             android:text="ESTADO" />
@@ -124,7 +124,7 @@
         <Spinner
             android:layout_height="50dp"
             android:layout_width="0dp"
-            android:layout_weight="1.5"
+            android:layout_weight="1.2"
             android:textColor="#000000"
             android:background="@drawable/style_spinner"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -139,7 +139,7 @@
         android:layout_marginTop="10dp">
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="@drawable/style_button"
             android:textColor="#FFFFFF"
@@ -149,7 +149,7 @@
             android:id="@+id/btnCancelar"/>
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="@drawable/style_button"
             android:textColor="#FFFFFF"
